@@ -7,8 +7,7 @@ import { ApolloProvider } from "@apollo/client/react";
 
 const client = new ApolloClient({
   link: new HttpLink({
-    uri: "https://creative-transformation-production-bc66.up.railway.app/graphql",
-    credentials: "include",
+    uri: "https://creative-transformation-production-bc66.up.railway.app/graphql"
   }),
   cache: new InMemoryCache(),
 });
